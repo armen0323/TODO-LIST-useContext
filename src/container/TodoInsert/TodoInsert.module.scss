@@ -10,6 +10,10 @@
   padding: 20px;
   gap: 32px;
 
+  @media (max-width: 1170px) {
+    gap: 16px;
+  }
+
   &__legend {
     font-size: 28px;
     color: $text-color;

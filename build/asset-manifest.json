@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b914347f.css",
+    "main.js": "/static/js/main.efafc81b.js",
+    "index.html": "/index.html",
+    "static/media/chevron.svg": "/static/media/chevron.ed83119676139faa8bf2ee41188a3994.svg",
+    "main.b914347f.css.map": "/static/css/main.b914347f.css.map",
+    "main.efafc81b.js.map": "/static/js/main.efafc81b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b914347f.css",
+    "static/js/main.efafc81b.js"
+  ]
+}

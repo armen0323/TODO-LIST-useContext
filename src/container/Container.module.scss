@@ -13,26 +13,49 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 1170px) {
+    height: max-content;
+  }
 
   &__container {
     width: 80%;
     display: flex;
     justify-content: space-between;
-    gap: 16px;
+    gap: 32px;
     padding: 30px;
     margin: auto auto;
 
     @media (max-width: 1170px) {
       flex-wrap: wrap;
       justify-content: unset;
+      width: 75%;
+    }
+
+    @media (max-width: 900px) {
+      width: 85%;
+    }
+
+    @media (max-width: 590px) {
+      width: 90%;
+    }
+
+    @media (max-width: 590px) {
+      width: 100%;
     }
 
     &__insert {
       width: 30%;
+      @media (max-width: 1170px) {
+        width: 100%;
+      }
     }
 
     &__data {
       width: 68%;
+
+      @media (max-width: 1170px) {
+        width: 100%;
+      }
     }
   }
 }
