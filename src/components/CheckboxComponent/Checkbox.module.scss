@@ -1,0 +1,11 @@
+@import "styles/colors";
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  &__label {
+    font-size: 30px;
+    color: $text-color;
+  }
+}

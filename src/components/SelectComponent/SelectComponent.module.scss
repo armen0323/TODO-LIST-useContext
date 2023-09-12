@@ -1,0 +1,42 @@
+@import "styles/colors";
+.wrapper {
+  width: 100%;
+  position: relative;
+  border: 1px solid lightgray;
+
+  &__select {
+    height: 48px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    transition: 0.3s all;
+
+    &__container {
+      height: 48px;
+      padding-bottom: 15px;
+      color: lightgray !important;
+
+      &__menu {
+        background: transparent;
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+        path {
+          color: $text-color !important;
+        }
+      }
+    }
+  }
+}
+
+ul {
+  background: black;
+
+  li {
+    background-color: aqua;
+    color: lightgray !important;
+  }
+}
